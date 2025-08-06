@@ -4,7 +4,8 @@
     </div>
     
     <div class="card-body">
-        <?= form_open('categories/edit/' . $category['id']) ?>
+        <?= form_open("categories/update/{$category['id']}") ?>
+        <?= csrf_field() ?>
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" name="name" id="name" value="<?= set_value('name', $category['name']) ?>">
@@ -22,6 +23,6 @@
                 <button type="submit" class="btn">Update Category</button>
                 <a href="<?= site_url('categories/' . $category['id']) ?>" class="btn btn-secondary">Cancel</a>
             </div>
-        </form>
+        <?= form_close(); ?>
     </div>
 </div>

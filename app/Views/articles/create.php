@@ -4,7 +4,8 @@
     </div>
     
     <div class="card-body">
-        <?= form_open_multipart('articles/create') ?>
+        <?= form_open_multipart('articles/store') ?>
+        <?= csrf_field() ?>
             <div class="form-group">
                 <label for="title">Title</label>
                 <input type="text" class="form-control" name="title" id="title" value="<?= set_value('title') ?>">

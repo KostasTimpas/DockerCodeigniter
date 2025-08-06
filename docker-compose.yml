@@ -12,6 +12,7 @@ services:
       - .:/var/www/html
     depends_on:
       - db
+      - memcached
     environment:
       - APACHE_DOCUMENT_ROOT=/var/www/html/public
     networks:
@@ -29,6 +30,14 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
+    networks:
+      - app-network
+
+  memcached:
+    image: memcached:alpine
+    container_name: memcached
+    ports:
+      - "11211:11211"
     networks:
       - app-network
 

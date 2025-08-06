@@ -1,0 +1,7 @@
+# Run the CodeIgniter worker every minute
+* * * * * cd /var/www/html && /usr/local/bin/php public/index.php cli productfetcher fetchProducts >> /var/log/product_fetch.log 2>&1
+
+# Run the CodeIgniter worker 30 seconds past the minute
+* * * * * sleep 30 && cd /var/www/html && /usr/local/bin/php public/index.php cli productfetcher fetchProducts >> /var/log/product_fetch.log 2>&1
+
+# Important: A newline character at the end of the file is crucial for cron to work correctly.

@@ -4,7 +4,8 @@
     </div>
     
     <div class="card-body">
-        <?= form_open('categories/create') ?>
+        <?= form_open('categories/store') ?>
+        <?= csrf_field() ?>
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" name="name" id="name" value="<?= set_value('name') ?>">
@@ -22,6 +23,6 @@
                 <button type="submit" class="btn">Create Category</button>
                 <a href="<?= site_url('categories') ?>" class="btn btn-secondary">Cancel</a>
             </div>
-        </form>
+        <?= form_close() ?>
     </div>
 </div>

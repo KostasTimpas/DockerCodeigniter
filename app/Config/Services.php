@@ -3,6 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Config\BaseService;
+use App\Libraries\SportsApiBasketballService;
 
 /**
  * Services Configuration file.
@@ -29,4 +30,13 @@ class Services extends BaseService
      *     return new \CodeIgniter\Example();
      * }
      */
+
+    public static function sportsApiBasketballService(bool $getShared = true): SportsApiBasketballService
+    {
+        if ($getShared) {
+            return static::getSharedInstance('sportsApiBasketballService');
+        }
+
+        return new SportsApiBasketballService();
+    }
 }

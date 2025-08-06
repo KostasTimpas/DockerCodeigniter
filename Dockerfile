@@ -2,16 +2,24 @@
 FROM php:8.2-apache
 
 # Install system dependencies and PHP extensions required by CodeIgniter 4
+# Added libmemcached-dev and libssl-dev for the memcached PHP extension
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libjpeg-dev \
     libfreetype6-dev \
     libicu-dev \
+    libmemcached-dev \
+    libssl-dev \
     zip \
     unzip \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install gd pdo pdo_mysql mysqli intl \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Install the memcached PHP extension by piping an empty string to the installer
+# to accept the default options and avoid interactive prompts.
+RUN echo '' | pecl install memcached \
+    && docker-php-ext-enable memcached
 
 # Enable Apache mod_rewrite for CodeIgniter's URL routing
 RUN a2enmod rewrite
