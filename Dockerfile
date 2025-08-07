@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     zip \
     unzip \
+    cron \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install gd pdo pdo_mysql mysqli intl \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
@@ -29,6 +30,13 @@ RUN sed -i 's|<Directory /var/www/html/>|<Directory /var/www/html/public/>\\n   
 
 # Copy the CodeIgniter application to the Apache web root
 COPY . /var/www/html
+
+# Setup cron job
+COPY cronjob /etc/cron.d/ci_cron
+# Give execution rights on the cron job
+RUN chmod 0644 /etc/cron.d/ci_cron
+# Apply cron job
+RUN crontab /etc/cron.d/ci_cron
 
 # Set proper permissions for the web server
 RUN chown -R www-data:www-data /var/www/html \
@@ -51,5 +59,5 @@ EXPOSE 80
 # Set Apache DocumentRoot to /var/www/html/public
 RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 
-# Start Apache in the foreground
-CMD ["apache2-foreground"]
+# Start Apache and cron together
+CMD service cron start && apache2-foreground

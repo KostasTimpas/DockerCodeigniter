@@ -1,0 +1,1 @@
+*/10 * * * * root cd /var/www/html && /usr/local/bin/php spark cron:store_products_to_memcache >> writable/logs/cron-logs.txt 2>&1

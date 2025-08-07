@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: codeigniter_app
+    container_name: blog_code_igniter_app
     ports:
       - "8080:80"
     volumes:
@@ -20,12 +20,12 @@ services:
 
   db:
     image: mariadb:10.11
-    container_name: codeigniter_db
+    container_name: codeigniter_blog_db_container
     environment:
       MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: codeigniter_db
-      MYSQL_USER: app_user
-      MYSQL_PASSWORD: app_password
+      MYSQL_DATABASE: codeigniter_blog_db
+      MYSQL_USER: app_user_blog
+      MYSQL_PASSWORD: app_password_blog
     ports:
       - "3306:3306"
     volumes:

@@ -93,33 +93,88 @@ class ProductFetcherCommand extends BaseCommand
         CLI::write(CLI::color('Starting product fetch process...', 'green'));
 
         try {
-            // Your logic for fetching and storing data goes here
-            // Get an instance of the cache service.
+            // Get an instance of the cache service
             $cache = service('cache');
 
-            // Example: Prepare data to be stored (e.g., from a form submission).
-            $product = [
-                'id' => 126,
-                'name' => 'Liarop2 Gadget',
-                'price' => 10000000.99,
-                'description' => 'Lololo',
+            // Δημιουργία λίστας με 10 προϊόντα (μπορείς να τα αντικαταστήσεις με πραγματικά δεδομένα)
+            $products = [
+                [
+                    'id' => 101,
+                    'name' => 'Product 1',
+                    'price' => 9.99,
+                    'description' => 'Description for product 1',
+                ],
+                [
+                    'id' => 102,
+                    'name' => 'Product 2',
+                    'price' => 19.99,
+                    'description' => 'Description for product 2',
+                ],
+                [
+                    'id' => 103,
+                    'name' => 'Product 3',
+                    'price' => 29.99,
+                    'description' => 'Description for product 3',
+                ],
+                [
+                    'id' => 104,
+                    'name' => 'Product 4',
+                    'price' => 39.99,
+                    'description' => 'Description for product 4',
+                ],
+                [
+                    'id' => 105,
+                    'name' => 'Product 5',
+                    'price' => 49.99,
+                    'description' => 'Description for product 5',
+                ],
+                [
+                    'id' => 106,
+                    'name' => 'Product 6',
+                    'price' => 59.99,
+                    'description' => 'Description for product 6',
+                ],
+                [
+                    'id' => 107,
+                    'name' => 'Product 7',
+                    'price' => 69.99,
+                    'description' => 'Description for product 7',
+                ],
+                [
+                    'id' => 108,
+                    'name' => 'Product 8',
+                    'price' => 79.99,
+                    'description' => 'Description for product 8',
+                ],
+                [
+                    'id' => 109,
+                    'name' => 'Product 9',
+                    'price' => 89.99,
+                    'description' => 'Description for product 9',
+                ],
+                [
+                    'id' => 110,
+                    'name' => 'Product 10',
+                    'price' => 99.99,
+                    'description' => 'Description for product 10',
+                ],
             ];
 
-            // Define a unique key for the item.
-            $cacheKey = 'product_details_' . $product['id'];
+            foreach ($products as $product) {
+                $cacheKey = 'product_details_' . $product['id'];
 
-            // Store the data in memcache for 50 seconds.
-            $isSaved = $cache->save($cacheKey, $product, 50);
+                $isSaved = $cache->save($cacheKey, $product, 50); // expires in 50 seconds
 
-            if ($isSaved) {
-                CLI::write(CLI::color("Product ID {$product['id']} successfully stored in cache.", 'green'));
-                log_message('info', "Success in product store to memcache fetcher: Product ID {$product['id']}.");
-            } else {
-                CLI::error("Failed to store product ID {$product['id']} in cache.");
-                log_message('error', "Error in product store to memcache fetcher: Product ID {$product['id']}.");
+                if ($isSaved) {
+                    CLI::write(CLI::color("✅ Product ID {$product['id']} stored in cache.", 'green'));
+                    log_message('info', "Stored Product ID {$product['id']} to cache.");
+                } else {
+                    CLI::error("❌ Failed to store Product ID {$product['id']}.");
+                    log_message('error', "Failed to store Product ID {$product['id']}.");
+                }
             }
 
-        } catch (\Exception $e) {
+        }catch (\Exception $e) {
             CLI::error('An error occurred: ' . $e->getMessage());
             log_message('error', 'Error in product fetch process: ' . $e->getMessage());
         } finally {
