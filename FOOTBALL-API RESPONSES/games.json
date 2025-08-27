@@ -1,0 +1,1345 @@
+{
+  "get": "games",
+  "parameters": {
+    "timezone": "UTC",
+    "date": "2025-08-07"
+  },
+  "errors": [],
+  "results": 23,
+  "response": [
+    {
+      "id": 446027,
+      "date": "2025-08-07T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1754524800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Canada Life Centre",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 222,
+        "name": "CEBL",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/222.png"
+      },
+      "country": {
+        "id": 9,
+        "name": "Canada",
+        "code": "CA",
+        "flag": "https://media.api-sports.io/flags/ca.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5961,
+          "name": "Winnipeg Sea Bears",
+          "logo": "https://media.api-sports.io/basketball/teams/5961.png"
+        },
+        "away": {
+          "id": 1445,
+          "name": "Niagara River Lions",
+          "logo": "https://media.api-sports.io/basketball/teams/1445.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 21,
+          "quarter_3": 23,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 86
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 18,
+          "quarter_3": 16,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 81
+        }
+      }
+    },
+    {
+      "id": 458058,
+      "date": "2025-08-07T00:00:00+00:00",
+      "time": "00:00",
+      "timestamp": 1754524800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "LNB - Final",
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 380,
+        "name": "LNB",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/380.png"
+      },
+      "country": {
+        "id": 73,
+        "name": "Dominican-Republic",
+        "code": "DO",
+        "flag": "https://media.api-sports.io/flags/do.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4982,
+          "name": "Titanes Del Licey",
+          "logo": "https://media.api-sports.io/basketball/teams/4982.png"
+        },
+        "away": {
+          "id": 4149,
+          "name": "Metros de Santiago",
+          "logo": "https://media.api-sports.io/basketball/teams/4149.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 13,
+          "quarter_2": 28,
+          "quarter_3": 20,
+          "quarter_4": 15,
+          "over_time": null,
+          "total": 76
+        },
+        "away": {
+          "quarter_1": 29,
+          "quarter_2": 14,
+          "quarter_3": 8,
+          "quarter_4": 13,
+          "over_time": null,
+          "total": 64
+        }
+      }
+    },
+    {
+      "id": 446028,
+      "date": "2025-08-07T01:30:00+00:00",
+      "time": "01:30",
+      "timestamp": 1754530200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "SaskTel Centre",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 222,
+        "name": "CEBL",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/222.png"
+      },
+      "country": {
+        "id": 9,
+        "name": "Canada",
+        "code": "CA",
+        "flag": "https://media.api-sports.io/flags/ca.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 3577,
+          "name": "Saskatchewan Rattlers",
+          "logo": "https://media.api-sports.io/basketball/teams/3577.png"
+        },
+        "away": {
+          "id": 3570,
+          "name": "Edmonton Stingers",
+          "logo": "https://media.api-sports.io/basketball/teams/3570.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 30,
+          "quarter_2": 27,
+          "quarter_3": 19,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 94
+        },
+        "away": {
+          "quarter_1": 26,
+          "quarter_2": 25,
+          "quarter_3": 24,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 100
+        }
+      }
+    },
+    {
+      "id": 443280,
+      "date": "2025-08-07T02:00:00+00:00",
+      "time": "02:00",
+      "timestamp": 1754532000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Chase Center",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 13,
+        "name": "NBA W",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/13.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7326,
+          "name": "Golden State Valkyries W",
+          "logo": "https://media.api-sports.io/basketball/teams/7326.png"
+        },
+        "away": {
+          "id": 167,
+          "name": "Las Vegas Aces W",
+          "logo": "https://media.api-sports.io/basketball/teams/167.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 24,
+          "quarter_3": 16,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 72
+        },
+        "away": {
+          "quarter_1": 16,
+          "quarter_2": 27,
+          "quarter_3": 21,
+          "quarter_4": 14,
+          "over_time": null,
+          "total": 78
+        }
+      }
+    },
+    {
+      "id": 447312,
+      "date": "2025-08-07T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1754553600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "2",
+      "venue": "King Abdullah Sports City",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 301,
+        "name": "Asia Cup",
+        "type": "cup",
+        "season": 2023,
+        "logo": "https://media.api-sports.io/basketball/leagues/301.png"
+      },
+      "country": {
+        "id": 2,
+        "name": "Asia",
+        "code": null,
+        "flag": null
+      },
+      "teams": {
+        "home": {
+          "id": 4078,
+          "name": "India",
+          "logo": "https://media.api-sports.io/basketball/teams/4078.png"
+        },
+        "away": {
+          "id": 278,
+          "name": "China",
+          "logo": "https://media.api-sports.io/basketball/teams/278.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 17,
+          "quarter_3": 17,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 69
+        },
+        "away": {
+          "quarter_1": 29,
+          "quarter_2": 24,
+          "quarter_3": 22,
+          "quarter_4": 25,
+          "over_time": null,
+          "total": 100
+        }
+      }
+    },
+    {
+      "id": 451903,
+      "date": "2025-08-07T08:00:00+00:00",
+      "time": "08:00",
+      "timestamp": 1754553600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 426,
+        "name": "MPBL",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/426.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7367,
+          "name": "Paranaque Patriots",
+          "logo": "https://media.api-sports.io/basketball/teams/7367.png"
+        },
+        "away": {
+          "id": 7366,
+          "name": "Pangasinan Heatwaves",
+          "logo": "https://media.api-sports.io/basketball/teams/7366.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 13,
+          "quarter_3": 26,
+          "quarter_4": 21,
+          "over_time": null,
+          "total": 76
+        },
+        "away": {
+          "quarter_1": 30,
+          "quarter_2": 34,
+          "quarter_3": 36,
+          "quarter_4": 35,
+          "over_time": null,
+          "total": 135
+        }
+      }
+    },
+    {
+      "id": 446515,
+      "date": "2025-08-07T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1754557200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4756,
+          "name": "Iceland U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4756.png"
+        },
+        "away": {
+          "id": 4634,
+          "name": "Croatia U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4634.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 17,
+          "quarter_2": 26,
+          "quarter_3": 27,
+          "quarter_4": 9,
+          "over_time": null,
+          "total": 79
+        },
+        "away": {
+          "quarter_1": 21,
+          "quarter_2": 22,
+          "quarter_3": 28,
+          "quarter_4": 20,
+          "over_time": null,
+          "total": 91
+        }
+      }
+    },
+    {
+      "id": 446519,
+      "date": "2025-08-07T09:00:00+00:00",
+      "time": "09:00",
+      "timestamp": 1754557200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4754,
+          "name": "Great Britain U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4754.png"
+        },
+        "away": {
+          "id": 4747,
+          "name": "Austria U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4747.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 21,
+          "quarter_2": 16,
+          "quarter_3": 24,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 77
+        },
+        "away": {
+          "quarter_1": 14,
+          "quarter_2": 15,
+          "quarter_3": 15,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 61
+        }
+      }
+    },
+    {
+      "id": 451904,
+      "date": "2025-08-07T10:00:00+00:00",
+      "time": "10:00",
+      "timestamp": 1754560800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 426,
+        "name": "MPBL",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/426.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7355,
+          "name": "Cebu Classic",
+          "logo": "https://media.api-sports.io/basketball/teams/7355.png"
+        },
+        "away": {
+          "id": 7421,
+          "name": "Marikina Verdiamonds",
+          "logo": "https://media.api-sports.io/basketball/teams/7421.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 33,
+          "quarter_2": 15,
+          "quarter_3": 27,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 104
+        },
+        "away": {
+          "quarter_1": 22,
+          "quarter_2": 16,
+          "quarter_3": 26,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 86
+        }
+      }
+    },
+    {
+      "id": 447311,
+      "date": "2025-08-07T11:00:00+00:00",
+      "time": "11:00",
+      "timestamp": 1754564400,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "2",
+      "venue": "King Abdullah Sports City",
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 301,
+        "name": "Asia Cup",
+        "type": "cup",
+        "season": 2023,
+        "logo": "https://media.api-sports.io/basketball/leagues/301.png"
+      },
+      "country": {
+        "id": 2,
+        "name": "Asia",
+        "code": null,
+        "flag": null
+      },
+      "teams": {
+        "home": {
+          "id": 4095,
+          "name": "Iraq",
+          "logo": "https://media.api-sports.io/basketball/teams/4095.png"
+        },
+        "away": {
+          "id": 4073,
+          "name": "Chinese Taipei",
+          "logo": "https://media.api-sports.io/basketball/teams/4073.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 13,
+          "quarter_2": 15,
+          "quarter_3": 13,
+          "quarter_4": 19,
+          "over_time": null,
+          "total": 60
+        },
+        "away": {
+          "quarter_1": 18,
+          "quarter_2": 21,
+          "quarter_3": 24,
+          "quarter_4": 24,
+          "over_time": null,
+          "total": 87
+        }
+      }
+    },
+    {
+      "id": 446501,
+      "date": "2025-08-07T11:30:00+00:00",
+      "time": "11:30",
+      "timestamp": 1754566200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4650,
+          "name": "Montenegro U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4650.png"
+        },
+        "away": {
+          "id": 4760,
+          "name": "Portugal U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4760.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 14,
+          "quarter_2": 19,
+          "quarter_3": 20,
+          "quarter_4": 10,
+          "over_time": null,
+          "total": 63
+        },
+        "away": {
+          "quarter_1": 13,
+          "quarter_2": 12,
+          "quarter_3": 18,
+          "quarter_4": 16,
+          "over_time": null,
+          "total": 59
+        }
+      }
+    },
+    {
+      "id": 446516,
+      "date": "2025-08-07T11:30:00+00:00",
+      "time": "11:30",
+      "timestamp": 1754566200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4764,
+          "name": "Ukraine U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4764.png"
+        },
+        "away": {
+          "id": 4753,
+          "name": "Denmark U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4753.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 23,
+          "quarter_2": 16,
+          "quarter_3": 21,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 82
+        },
+        "away": {
+          "quarter_1": 25,
+          "quarter_2": 15,
+          "quarter_3": 16,
+          "quarter_4": 17,
+          "over_time": null,
+          "total": 73
+        }
+      }
+    },
+    {
+      "id": 451905,
+      "date": "2025-08-07T12:00:00+00:00",
+      "time": "12:00",
+      "timestamp": 1754568000,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 426,
+        "name": "MPBL",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/426.png"
+      },
+      "country": {
+        "id": 60,
+        "name": "Philippines",
+        "code": "PH",
+        "flag": "https://media.api-sports.io/flags/ph.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7368,
+          "name": "Pasay Voyagers",
+          "logo": "https://media.api-sports.io/basketball/teams/7368.png"
+        },
+        "away": {
+          "id": 7370,
+          "name": "Quezon City",
+          "logo": "https://media.api-sports.io/basketball/teams/7370.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 22,
+          "quarter_2": 22,
+          "quarter_3": 20,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 87
+        },
+        "away": {
+          "quarter_1": 22,
+          "quarter_2": 10,
+          "quarter_3": 19,
+          "quarter_4": 23,
+          "over_time": null,
+          "total": 74
+        }
+      }
+    },
+    {
+      "id": 449018,
+      "date": "2025-08-07T12:30:00+00:00",
+      "time": "12:30",
+      "timestamp": 1754569800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Cung Thi",
+      "status": {
+        "long": "Game Postponed",
+        "short": "POST",
+        "timer": null
+      },
+      "league": {
+        "id": 276,
+        "name": "VBA",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/276.png"
+      },
+      "country": {
+        "id": 70,
+        "name": "Vietnam",
+        "code": "VN",
+        "flag": "https://media.api-sports.io/flags/vn.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 7431,
+          "name": "V Islanders",
+          "logo": "https://media.api-sports.io/basketball/teams/7431.png"
+        },
+        "away": {
+          "id": 75,
+          "name": "Saigon Heat",
+          "logo": "https://media.api-sports.io/basketball/teams/75.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 446512,
+      "date": "2025-08-07T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1754575200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Half Time",
+        "short": "HT",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4757,
+          "name": "Ireland U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4757.png"
+        },
+        "away": {
+          "id": 4762,
+          "name": "Slovakia U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4762.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 34,
+          "quarter_2": 8,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 42
+        },
+        "away": {
+          "quarter_1": 15,
+          "quarter_2": 11,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 26
+        }
+      }
+    },
+    {
+      "id": 446514,
+      "date": "2025-08-07T14:00:00+00:00",
+      "time": "14:00",
+      "timestamp": 1754575200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Quarter 3",
+        "short": "Q3",
+        "timer": "3"
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4758,
+          "name": "Kosovo U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4758.png"
+        },
+        "away": {
+          "id": 4651,
+          "name": "Netherlands U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4651.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 16,
+          "quarter_2": 12,
+          "quarter_3": 4,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 32
+        },
+        "away": {
+          "quarter_1": 13,
+          "quarter_2": 17,
+          "quarter_3": 3,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 33
+        }
+      }
+    },
+    {
+      "id": 447309,
+      "date": "2025-08-07T15:00:00+00:00",
+      "time": "15:00",
+      "timestamp": 1754578800,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "2",
+      "venue": "King Abdullah Sports City",
+      "status": {
+        "long": "Quarter 1",
+        "short": "Q1",
+        "timer": "5"
+      },
+      "league": {
+        "id": 301,
+        "name": "Asia Cup",
+        "type": "cup",
+        "season": 2023,
+        "logo": "https://media.api-sports.io/basketball/leagues/301.png"
+      },
+      "country": {
+        "id": 2,
+        "name": "Asia",
+        "code": null,
+        "flag": null
+      },
+      "teams": {
+        "home": {
+          "id": 3023,
+          "name": "Philippines",
+          "logo": "https://media.api-sports.io/basketball/teams/3023.png"
+        },
+        "away": {
+          "id": 4085,
+          "name": "New Zealand",
+          "logo": "https://media.api-sports.io/basketball/teams/4085.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 8,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 8
+        },
+        "away": {
+          "quarter_1": 10,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": 10
+        }
+      }
+    },
+    {
+      "id": 446517,
+      "date": "2025-08-07T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1754584200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4633,
+          "name": "Bosnia & Herzegovina U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4633.png"
+        },
+        "away": {
+          "id": 4654,
+          "name": "Poland U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4654.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 446520,
+      "date": "2025-08-07T16:30:00+00:00",
+      "time": "16:30",
+      "timestamp": 1754584200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4751,
+          "name": "Cyprus U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4751.png"
+        },
+        "away": {
+          "id": 4643,
+          "name": "North Macedonia U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4643.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 447310,
+      "date": "2025-08-07T18:00:00+00:00",
+      "time": "18:00",
+      "timestamp": 1754589600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": "2",
+      "venue": "King Abdullah Sports City",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 301,
+        "name": "Asia Cup",
+        "type": "cup",
+        "season": 2023,
+        "logo": "https://media.api-sports.io/basketball/leagues/301.png"
+      },
+      "country": {
+        "id": 2,
+        "name": "Asia",
+        "code": null,
+        "flag": null
+      },
+      "teams": {
+        "home": {
+          "id": 3159,
+          "name": "Saudi Arabia",
+          "logo": "https://media.api-sports.io/basketball/teams/3159.png"
+        },
+        "away": {
+          "id": 3158,
+          "name": "Jordan",
+          "logo": "https://media.api-sports.io/basketball/teams/3158.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 446509,
+      "date": "2025-08-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1754593200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4750,
+          "name": "Bulgaria U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4750.png"
+        },
+        "away": {
+          "id": 4752,
+          "name": "Czech Republic U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4752.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 446513,
+      "date": "2025-08-07T19:00:00+00:00",
+      "time": "19:00",
+      "timestamp": 1754593200,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": null,
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 341,
+        "name": "EuroBasket U16 B",
+        "type": "cup",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/341.png"
+      },
+      "country": {
+        "id": 55,
+        "name": "Europe",
+        "code": " ",
+        "flag": "https://media.api-sports.io/flags/ .svg"
+      },
+      "teams": {
+        "home": {
+          "id": 4755,
+          "name": "Hungary U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4755.png"
+        },
+        "away": {
+          "id": 4759,
+          "name": "Norway U16",
+          "logo": "https://media.api-sports.io/basketball/teams/4759.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    },
+    {
+      "id": 458071,
+      "date": "2025-08-07T23:00:00+00:00",
+      "time": "23:00",
+      "timestamp": 1754607600,
+      "timezone": "UTC",
+      "stage": null,
+      "week": null,
+      "venue": "Coliseo Ciudad de Potosí",
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "timer": null
+      },
+      "league": {
+        "id": 379,
+        "name": "Libobasquet",
+        "type": "League",
+        "season": 2025,
+        "logo": "https://media.api-sports.io/basketball/leagues/379.png"
+      },
+      "country": {
+        "id": 72,
+        "name": "Bolivia",
+        "code": "BO",
+        "flag": "https://media.api-sports.io/flags/bo.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 5088,
+          "name": "Atletico Nacional",
+          "logo": "https://media.api-sports.io/basketball/teams/5088.png"
+        },
+        "away": {
+          "id": 4974,
+          "name": "Pichincha Potosi",
+          "logo": "https://media.api-sports.io/basketball/teams/4974.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        },
+        "away": {
+          "quarter_1": null,
+          "quarter_2": null,
+          "quarter_3": null,
+          "quarter_4": null,
+          "over_time": null,
+          "total": null
+        }
+      }
+    }
+  ]
+}

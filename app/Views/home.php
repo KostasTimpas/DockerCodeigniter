@@ -7,6 +7,41 @@
     </div>
 </div>
 
+<div id="wg-api-basketball-games"
+     data-host="v1.basketball.api-sports.io"
+     data-key="6ec045f3eb893d762e6f9a10fd6bf3a7"
+     data-date=""
+     data-league=""
+     data-season="2022-2023"
+     data-theme=""
+     data-refresh="15"
+     data-show-toolbar="true"
+     data-show-errors="false"
+     data-show-logos="false"
+     data-modal-game="true"
+     data-modal-standings="true"
+     data-modal-show-logos="true">
+</div>
+<script
+        type="module"
+        src="https://widgets.api-sports.io/2.0.3/widgets.js">
+</script>
+
+<div id="wg-api-football-game"
+     data-host="v3.football.api-sports.io"
+     data-key="6ec045f3eb893d762e6f9a10fd6bf3a7"
+     data-id="718243"
+     data-theme=""
+     data-refresh="15"
+     data-show-errors="false"
+     data-show-logos="true">
+</div>
+<script
+        type="module"
+        src="https://widgets.api-sports.io/2.0.3/widgets.js">
+</script>
+
+
 <div class="card">
     <div class="card-header">
         <h2>Latest Articles</h2>
