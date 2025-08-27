@@ -33,6 +33,20 @@ services:
     networks:
       - app-network
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: ci_phpmyadmin
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    networks:
+      - app-network
+    # Uncomment the line below if you're on Apple Silicon (ARM64) and get platform errors
+    platform: linux/amd64
+
   memcached:
     image: memcached:alpine
     container_name: memcached

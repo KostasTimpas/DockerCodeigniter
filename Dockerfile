@@ -22,6 +22,8 @@ RUN apt-get update && apt-get install -y \
 RUN echo '' | pecl install memcached \
     && docker-php-ext-enable memcached
 
+RUN mv /usr/local/etc/php/conf.d/docker-php-ext-mysqli.ini /usr/local/etc/php/conf.d/docker-php-ext-mysqli.ini.disabled || true
+
 # Enable Apache mod_rewrite for CodeIgniter's URL routing
 RUN a2enmod rewrite
 
