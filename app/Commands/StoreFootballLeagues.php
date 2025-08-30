@@ -52,11 +52,11 @@ class StoreFootballLeagues extends BaseCommand
     protected $options = [];
     
     protected FootballService $service;
+    protected FootballLeagues $leagueModel;
 
     public function __construct()
     {
-
-        $this->service = new FootballService();
+        $this->service     = new FootballService();
         $this->leagueModel = new \App\Models\FootballLeagues();
     }
 
@@ -67,6 +67,7 @@ class StoreFootballLeagues extends BaseCommand
      */
     public function run(array $params)
     {
+        $inserted = $skipped = $failed = 0;
         $apiLeagues = $this->service->listLeagues() ?? [];
 
         //$FootballLeagueModel = new \App\Models\FootballLeagues();
@@ -78,8 +79,10 @@ class StoreFootballLeagues extends BaseCommand
 
             if ($existing) {
                 // League exists, skip to next iteration
+                $skipped++;
                 continue;
             }
+            CLI::write("Leagues stored: {$inserted}, skipped: {$skipped}, failed: {$failed}", 'green');
 
 
                 $leagueData = [
@@ -92,11 +95,13 @@ class StoreFootballLeagues extends BaseCommand
 
                 try {
                     $this->leagueModel->insert($leagueData);
+                    $inserted = ($inserted ?? 0) + 1;
                 } catch (\Exception $e) {
-                    echo '<br> Error Here' .$e->getMessage();
+                    $failed = ($failed ?? 0) + 1;
+                    CLI::error('Insert failed for league '.$item['league']['id'].': '.$e->getMessage());
                 }
-
-                echo "Leagues stored successfully.";
-            }
+        }
+        echo "Leagues stored successfully.";
+        echo "Inserted: {$inserted}, skipped: {$skipped}, failed: {$failed}";
     }
 }
