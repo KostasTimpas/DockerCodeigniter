@@ -44,3 +44,6 @@ $routes->post('cache-test/store', [CacheTest::class, 'store']);
 // Route for showing a single product.
 // Maps a GET request to 'cachetest/show/123' to the 'show' method.
 $routes->get('cache-test/show/(:num)', [CacheTest::class, 'show']);
+
+//Football Routes
+$routes->get('football/leagues', 'FootballController::leagues');
