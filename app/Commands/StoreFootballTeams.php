@@ -70,9 +70,9 @@ class StoreFootballTeams extends BaseCommand
      */
     public function run(array $params)
     {
-        $season = "2023";
+        $season = date('Y');;
         // Fetch all leagues (assuming 'id' is your primary key)
-        $leagueIds = $this->leagueModel->findColumn("id");
+        $leagueIds = $this->leagueModel->findColumn('id') ?? [];
         $inserted = $skipped = $failed = 0;
 
         foreach ($leagueIds as $id) {
