@@ -17,4 +17,9 @@ class FootballService
     {
         return $this->repository->getLeagues();
     }
+
+    public function listTeams($leagueId, $season): array
+    {
+        return $this->repository->getTeams($leagueId, $season);
+    }
 }
