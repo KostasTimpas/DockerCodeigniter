@@ -30,6 +30,21 @@ class FootballApisRepository
         return $leagues;
     }
 
+    /** Get All Teams */
+    //Using leagueId and Session
+    public function getTeams(int $leagueId, string $session){
+        $response = $this->client->get('teams', [
+            'query' => [
+                'league' => $leagueId,
+                'season' => $session,
+            ],
+            'timeout' => 30,
+        ]);
+        $data = json_decode($response->getBody(), true);
+        $teams = $data['response'] ?? [];
+        return $teams;
+    }
+
     /** Get fixtures / matches by league */
     public function getFixtures(int $leagueId): array
     {
