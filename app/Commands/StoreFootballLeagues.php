@@ -101,7 +101,7 @@ class StoreFootballLeagues extends BaseCommand
                     CLI::error('Insert failed for league '.$item['league']['id'].': '.$e->getMessage());
                 }
         }
-        echo "Leagues stored successfully.";
+        echo "Leagues stored successfully";
         echo "Inserted: {$inserted}, skipped: {$skipped}, failed: {$failed}";
     }
 }

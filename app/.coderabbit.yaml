@@ -1,0 +1,42 @@
+# Copilot Review Instructions
+
+You are reviewing Pull Requests for this repository.
+
+## Project Context
+
+* Framework: **CodeIgniter 4 (CI4)**
+* Architecture: **Service + Repository pattern**
+
+## Coding Standards
+
+* Enforce **PSR-12**
+* All functions and variables must use **camelCase**
+* Use clear, meaningful names
+
+## Architecture Rules
+
+* Controllers must be thin
+* Business logic belongs in **Services**
+* Database access must be handled via **Repositories**
+* Do not access models directly in controllers
+
+## Design Principles
+
+* Follow **SOLID principles**
+* Identify and report:
+
+  * Tight coupling
+  * God classes
+  * Missing abstractions
+
+## Code Quality Checks
+
+* Remove **duplicate (non-DRY) code**
+* Detect **N+1 query** problems and suggest fixes
+* Prefer optimized queries and batching
+
+## Review Expectations
+
+* Point out issues with file names and line numbers
+* Suggest concrete improvements
+* Highlight both problems and good practices
